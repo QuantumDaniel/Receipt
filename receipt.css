@@ -114,6 +114,10 @@ td:not(:first-child) {
     width: 60%;
 }
 
+tbody .name {
+    text-align: left;
+}
+
 .total {
     display: flex;
     flex-direction: row;
