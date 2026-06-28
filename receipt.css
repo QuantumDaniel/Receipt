@@ -161,6 +161,13 @@ a {
     background-color: none;
 }
 
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 @media (max-width:700px) {
     .container {
         width: 90%;
@@ -172,5 +179,18 @@ a {
 
     .footer {
         font-size: xx-small;
+    }
+}
+
+@media print {
+
+    button,
+    .socials {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+        border: none;
     }
 }

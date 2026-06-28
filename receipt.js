@@ -53,6 +53,9 @@ document.getElementById('total').innerHTML = `₦${(subTotal - dis + tax).toLoca
 document.getElementById('id').innerHTML = `QS-${date}-001`;
 document.getElementById('date').innerHTML = `${formattedDate}`;
 document.getElementById('time').innerHTML = `${formattedTime}`;
+document.getElementById("print-btn").addEventListener("click", () => {
+    window.print();
+});
 
 
 console.log(formattedDate)
